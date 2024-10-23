@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/ban_hammer_death",
+  "textures": {
+    "0": "aae_items:blocks/bloody",
+    "particle": "aae_items:items/bloodypixel"
+  }
+}

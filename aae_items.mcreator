@@ -1,0 +1,4297 @@
+{
+  "mod_elements": [
+    {
+      "name": "AEBoots",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ae_boots_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/AEBootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EEChestplate",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ee_chestplate_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/EEChestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EEBoots",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ee_boots_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/EEBootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OPHelmPro",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_helm_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/OPHelmProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OPChestplatePro",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_chestplate_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/OPChestplateProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OPLeggingsPro",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_leggings_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/OPLeggingsProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OPBootsPro",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_boots_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/OPBootsProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EngieGem",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_gem.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngieGemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AAEItemsItems",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "AngryEngieEssence",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/angry_engie_essence.json",
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngieEssenceItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EnragedEngieEssence",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngieEssenceItem.java",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_essence.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Engie",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_chestplate.json",
+          "src/main/resources/assets/aae_items/models/item/engie_boots.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngieItem.java",
+          "src/main/resources/assets/aae_items/models/item/engie_leggings.json",
+          "src/main/resources/assets/aae_items/models/item/engie_helmet.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "AAEItemsArmor",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_armor",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "AngryEngie",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/angry_engie_helmet.json",
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngieItem.java",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_boots.json",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_leggings.json",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_chestplate.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "EngieBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_block.json",
+          "src/main/resources/assets/aae_items/models/block/engie_block.json",
+          "src/main/java/net/mcreator/aaeitems/block/EngieBlockBlock.java",
+          "src/main/resources/assets/aae_items/blockstates/engie_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AngryEngieBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/block/angry_engie_block.json",
+          "src/main/java/net/mcreator/aaeitems/block/AngryEngieBlockBlock.java",
+          "src/main/resources/assets/aae_items/blockstates/angry_engie_block.json",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EnragedEngieBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_block.json",
+          "src/main/resources/assets/aae_items/blockstates/enraged_engie_block.json",
+          "src/main/java/net/mcreator/aaeitems/block/EnragedEngieBlockBlock.java",
+          "src/main/resources/assets/aae_items/models/block/enraged_engie_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/world/inventory/MetalChestUIMenu.java",
+          "src/main/java/net/mcreator/aaeitems/client/gui/MetalChestUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "EngieOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/blockstates/engie_ore.json",
+          "src/main/java/net/mcreator/aaeitems/block/EngieOreBlock.java",
+          "src/main/resources/data/aae_items/forge/biome_modifier/engie_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/aaeitems/world/features/ores/EngieOreFeature.java",
+          "src/main/resources/assets/aae_items/models/item/engie_ore.json",
+          "src/main/resources/assets/aae_items/models/block/engie_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DeepslateEngieOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_engie_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/DeepslateEngieOreBlock.java",
+          "src/main/resources/assets/aae_items/blockstates/deepslate_engie_ore.json",
+          "src/main/resources/assets/aae_items/models/block/deepslate_engie_ore.json",
+          "src/main/resources/data/aae_items/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json",
+          "src/main/resources/assets/aae_items/models/item/deepslate_engie_ore.json",
+          "src/main/java/net/mcreator/aaeitems/world/features/ores/DeepslateEngieOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalTable",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/MetalTableBlock.java",
+          "src/main/resources/assets/aae_items/models/block/metal_table.json",
+          "src/main/resources/assets/aae_items/models/item/metal_table.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_table.json",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalTableBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OldEngieOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_engie_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/OldEngieOreBlock.java",
+          "src/main/resources/assets/aae_items/models/item/old_engie_ore.json",
+          "src/main/resources/assets/aae_items/models/block/old_engie_ore.json",
+          "src/main/resources/assets/aae_items/blockstates/old_engie_ore.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OldDeepslateEngieOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_deepslate_engie_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/block/old_deepslate_engie_ore.json",
+          "src/main/resources/assets/aae_items/models/item/old_deepslate_engie_ore.json",
+          "src/main/resources/assets/aae_items/blockstates/old_deepslate_engie_ore.json",
+          "src/main/java/net/mcreator/aaeitems/block/OldDeepslateEngieOreBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CrucifixPro",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/CrucifixProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Crucifix",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/CrucifixItem.java",
+          "src/main/resources/assets/aae_items/models/item/crucifix.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MiniBanHammer",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/MiniBanHammerItem.java",
+          "src/main/resources/assets/aae_items/models/item/mini_ban_hammer.json"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "BanHammer",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/ban_hammer.json",
+          "src/main/java/net/mcreator/aaeitems/item/BanHammerItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "BigBanHammer",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/big_ban_hammer.json",
+          "src/main/java/net/mcreator/aaeitems/item/BigBanHammerItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "BiggerBanHammer",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/bigger_ban_hammer.json",
+          "src/main/java/net/mcreator/aaeitems/item/BiggerBanHammerItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "BiggestBanHammer",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biggest_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/BiggestBanHammerItem.java",
+          "src/main/resources/assets/aae_items/models/item/biggest_ban_hammer.json"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "TrueBanHammerNCMD",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_ban_hammer_ncmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/TrueBanHammerNCMDItem.java",
+          "src/main/resources/assets/aae_items/models/item/true_ban_hammer_ncmd.json"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "MiniBanHammerPixel",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/mini_ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/aaeitems/item/MiniBanHammerPixelItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "BanHammerPixel",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/BanHammerPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "BigBanHammerPixel",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/BigBanHammerPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/big_ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "BiggerBanHammerPixel",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/bigger_ban_hammer_pixel.json",
+          "src/main/java/net/mcreator/aaeitems/item/BiggerBanHammerPixelItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "BiggestBanHammerPixel",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biggest_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/BiggestBanHammerPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/biggest_ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "TrueBanHammerNCMDPixel",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_ban_hammer_ncmd_pixel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/true_ban_hammer_ncmd_pixel.json",
+          "src/main/java/net/mcreator/aaeitems/item/TrueBanHammerNCMDPixelItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "TrueBanHammer",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/TrueBanHammerItem.java",
+          "src/main/resources/assets/aae_items/models/item/true_ban_hammer.json"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "KickFromKickBanHammer",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kick_from_kick_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/KickFromKickBanHammerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BanFromTrueBanHammer",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_from_true_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/BanFromTrueBanHammerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "KickBanHammer",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kick_ban_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/kick_ban_hammer.json",
+          "src/main/java/net/mcreator/aaeitems/item/KickBanHammerItem.java"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "Echdeath",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echdeath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EchdeathItem.java",
+          "src/main/resources/assets/aae_items/models/item/echdeath.json"
+        ]
+      },
+      "path": "~/Ban Hammers"
+    },
+    {
+      "name": "TrueBanHammerPixel",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/TrueBanHammerPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/true_ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "KickBanHammerPixel",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kick_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/KickBanHammerPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/kick_ban_hammer_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "EchdeathPixel",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echdeath_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EchdeathPixelItem.java",
+          "src/main/resources/assets/aae_items/models/item/echdeath_pixel.json"
+        ]
+      },
+      "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "KickFromKickBanHammerPixel",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kick_from_kick_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/KickFromKickBanHammerPixelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BanFromTrueBanHammerPixel",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_from_true_ban_hammer_pixel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/BanFromTrueBanHammerPixelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnragedEngie",
+      "type": "armor",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_boots.json",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_leggings.json",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_helmet.json",
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngieItem.java",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_chestplate.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "EngieAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_axe.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngieAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EngiePickaxe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_pickaxe.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngiePickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EngieShovel",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_shovel.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngieShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EngieHoe",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engie_hoe.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngieHoeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AngryEngieAxe",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/angry_engie_axe.json",
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngieAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AngryEngiePickaxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngiePickaxeItem.java",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AngryEngieShovel",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngieShovelItem.java",
+          "src/main/resources/assets/aae_items/models/item/angry_engie_shovel.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AngryEngieHoe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/angry_engie_hoe.json",
+          "src/main/java/net/mcreator/aaeitems/item/AngryEngieHoeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Operators",
+      "type": "armor",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/operators_boots.json",
+          "src/main/resources/assets/aae_items/models/item/operators_helmet.json",
+          "src/main/java/net/mcreator/aaeitems/item/OperatorsItem.java",
+          "src/main/resources/assets/aae_items/models/item/operators_chestplate.json",
+          "src/main/resources/assets/aae_items/models/item/operators_leggings.json"
+        ]
+      },
+      "path": "~/Operator Stuff"
+    },
+    {
+      "name": "OperatorItemsCommandPro",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operator_items_command_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/OperatorItemsCommandProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "EnragedEngieAxe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngieAxeItem.java",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EnragedEngiePickaxe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngiePickaxeItem.java",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EnragedEngieShovel",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_shovel.json",
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngieShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EnragedEngieHoe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EnragedEngieHoeItem.java",
+          "src/main/resources/assets/aae_items/models/item/enraged_engie_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "EngiAxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/EngiAxeItem.java",
+          "src/main/resources/assets/aae_items/models/item/engi_axe.json"
+        ]
+      },
+      "path": "~/Tools/Easter Eggs"
+    },
+    {
+      "name": "EngiPickaxe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engi_pickaxe.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngiPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Easter Eggs"
+    },
+    {
+      "name": "EngiShovel",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engi_shovel.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngiShovelItem.java"
+        ]
+      },
+      "path": "~/Tools/Easter Eggs"
+    },
+    {
+      "name": "OperatorsGear",
+      "type": "command",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/OperatorsGearCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "ThanksForPlaying",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thanks_for_playing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/thanks_for_playing.json",
+          "src/main/resources/assets/aae_items/blockstates/thanks_for_playing.json",
+          "src/main/resources/assets/aae_items/models/block/thanks_for_playing.json",
+          "src/main/java/net/mcreator/aaeitems/block/ThanksForPlayingBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Nothing",
+      "type": "structure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/world/features/NothingFeature.java",
+          "src/main/resources/data/aae_items/forge/biome_modifier/nothing_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "NothingGenerated",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_generated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/NothingGeneratedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ItemHouseSpawnerTickUpdate",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_house_spawner_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/ItemHouseSpawnerTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ItemHouse",
+      "type": "structure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/world/features/ItemHouseFeature.java",
+          "src/main/resources/data/aae_items/forge/biome_modifier/item_house_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "EngiesScythe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/engies_scythe.json",
+          "src/main/java/net/mcreator/aaeitems/item/EngiesScytheItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/dough.json",
+          "src/main/java/net/mcreator/aaeitems/item/DoughItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "DoughWithSauce",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_with_sauce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/DoughWithSauceItem.java",
+          "src/main/resources/assets/aae_items/models/item/dough_with_sauce.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "DoughRightClick",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DoughRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UncookedPizza",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncooked_pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/UncookedPizzaItem.java",
+          "src/main/resources/assets/aae_items/models/item/uncooked_pizza.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CookedPizza",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/cooked_pizza.json",
+          "src/main/java/net/mcreator/aaeitems/item/CookedPizzaItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "PizzaSlice",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/PizzaSliceItem.java",
+          "src/main/resources/assets/aae_items/models/item/pizza_slice.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "UncookedPizzaToCookedPizza",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncooked_pizza_to_cooked_pizza",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/uncooked_pizza_to_cooked_pizza.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UncookedPizzaToCookedPizzaSmoking",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncooked_pizza_to_cooked_pizza_smoking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/uncooked_pizza_to_cooked_pizza_smoking.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieAxe1",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_axe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_axe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieAxe2",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_axe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngiePickaxe1",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_pickaxe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieShovel1",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_shovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_shovel_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieHoe1",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_hoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_hoe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieHoe2",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_hoe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieAxe1",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_axe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_axe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieAxe2",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_axe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngiePickaxe1",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_pickaxe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieShovel1",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_shovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_shovel_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieHoe1",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_hoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_hoe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieHoe2",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_hoe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieAxe1",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_axe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_axe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieAxe2",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_axe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngiePickaxe1",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_pickaxe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieShovel1",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_shovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_shovel_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieHoe1",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_hoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_hoe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieHoe2",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_hoe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieHelmet1",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_helmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_helmet_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieChestplate1",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_chestplate_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_chestplate_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieLeggings1",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_leggings_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_leggings_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieBoots1",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_boots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_boots_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieHelmet1",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_helmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_helmet_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieChestplate1",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_chestplate_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_chestplate_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieLeggings1",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_leggings_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_leggings_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieBoots1",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_boots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_boots_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragredEngieHelmet1",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enragred_engie_helmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enragred_engie_helmet_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieChestplate1",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_chestplate_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_chestplate_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieLeggings1",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_leggings_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_leggings_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieBoots1",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_boots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_boots_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieBlock1",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_block_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieBlock1",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_block_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieBlock1",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_block_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngieGem9items",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_gem_9items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engie_gem_9items.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AngryEngieEssence9items",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_essence_9items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/angry_engie_essence_9items.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnragedEngieEssence9items",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_essence_9items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enraged_engie_essence_9items.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/CheeseItem.java",
+          "src/main/resources/assets/aae_items/models/item/cheese.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "DoughSauceAddCheese",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_sauce_add_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/dough_sauce_add_cheese.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DoughCraft",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/dough_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CheeseCraft",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/cheese_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalOak",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_oak.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalDarkOak",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_dark_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_dark_oak.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalSpruce",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_spruce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_spruce.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalBirch",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_birch.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalAcacia",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_acacia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_acacia.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalWarped",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_warped",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_warped.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalCrimson",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_crimson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_crimson.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalJungle",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_jungle.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm2",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm3",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm4",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm5",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_5.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm6",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_6.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm7",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_7.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm8",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_8.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm9",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_9.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm10",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_10.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm11",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_11.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm12",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_12.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm13",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_13.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm14",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_14.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm15",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_15.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm16",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_16",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_16.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MetalNorm17",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_norm_17",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/metal_norm_17.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackersInBowl",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackers_in_bowl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/crackers_in_bowl.json",
+          "src/main/java/net/mcreator/aaeitems/item/CrackersInBowlItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CrackerDust",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracker_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/cracker_dust.json",
+          "src/main/java/net/mcreator/aaeitems/item/CrackerDustItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CrackersFinishEating",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackers_finish_eating",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/CrackersFinishEatingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CrackerBowlCraft",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracker_bowl_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/cracker_bowl_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AAEItemsFood",
+      "type": "tab",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_food",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "OperatorsAxe",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/operators_axe.json",
+          "src/main/java/net/mcreator/aaeitems/item/OperatorsAxeItem.java"
+        ]
+      },
+      "path": "~/Operator Stuff"
+    },
+    {
+      "name": "OperatorsPickaxe",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/operators_pickaxe.json",
+          "src/main/java/net/mcreator/aaeitems/item/OperatorsPickaxeItem.java"
+        ]
+      },
+      "path": "~/Operator Stuff"
+    },
+    {
+      "name": "OperatorsShovel",
+      "type": "tool",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/operators_shovel.json",
+          "src/main/java/net/mcreator/aaeitems/item/OperatorsShovelItem.java"
+        ]
+      },
+      "path": "~/Operator Stuff"
+    },
+    {
+      "name": "OperatorsHoe",
+      "type": "tool",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operators_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/operators_hoe.json",
+          "src/main/java/net/mcreator/aaeitems/item/OperatorsHoeItem.java"
+        ]
+      },
+      "path": "~/Operator Stuff"
+    },
+    {
+      "name": "CheesePuffsUnopened",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_puffs_unopened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/CheesePuffsUnopenedItem.java",
+          "src/main/resources/assets/aae_items/models/item/cheese_puffs_unopened.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "EmptyCheesePuffsBin",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_cheese_puffs_bin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/empty_cheese_puffs_bin.json",
+          "src/main/java/net/mcreator/aaeitems/item/EmptyCheesePuffsBinItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CheesePuffsOpened",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_puffs_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/CheesePuffsOpenedItem.java",
+          "src/main/resources/assets/aae_items/models/item/cheese_puffs_opened.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "EngieArmorMade",
+      "type": "achievement",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_armor_made",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/engie_armor_made.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AngryEngieArmorMade",
+      "type": "achievement",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_armor_made",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/angry_engie_armor_made.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EngieGemObtained",
+      "type": "achievement",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_gem_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/engie_gem_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EngieToolObtained",
+      "type": "achievement",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_tool_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/engie_tool_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AngryEngieToolObtained",
+      "type": "achievement",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_tool_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/angry_engie_tool_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EnragedEngieArmorMade",
+      "type": "achievement",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_armor_made",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/enraged_engie_armor_made.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EnragedEngieToolObtained",
+      "type": "achievement",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_tool_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/enraged_engie_tool_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AngryEngieEssenceObtained",
+      "type": "achievement",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angry_engie_essence_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/angry_engie_essence_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EnragedEngieEssenceObtained",
+      "type": "achievement",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enraged_engie_essence_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/enraged_engie_essence_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ArmorAdvancements",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_advancements",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/ArmorAdvancementsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ItemAdvancements",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_advancements",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/ItemAdvancementsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PixelifyHammers",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixelify_hammers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/PixelifyHammersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UnpixelifyHammers",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpixelify_hammers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/UnpixelifyHammersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Uhh",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uhh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/UhhProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MetalChest",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestBlockEntity.java",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestBlock.java",
+          "src/main/resources/assets/aae_items/models/block/metal_chest.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest.json",
+          "src/main/resources/assets/aae_items/models/item/metal_chest.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestOak",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_oak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestOakBlockEntity.java",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_oak.json",
+          "src/main/resources/assets/aae_items/models/item/metal_chest_oak.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_oak.json",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestOakBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VillageMain",
+      "type": "loottable",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "village_main",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/village_main.json"
+        ]
+      },
+      "path": "~/Loot Table"
+    },
+    {
+      "name": "ItemHouseMain",
+      "type": "loottable",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_house_main",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/loot_tables/chests/item_house_main.json"
+        ]
+      },
+      "path": "~/Loot Table"
+    },
+    {
+      "name": "Pixelify",
+      "type": "command",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pixelify",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/PixelifyCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "CheesePuffsUnopenOpenLid",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_puffs_unopen_open_lid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/CheesePuffsUnopenOpenLidProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TeamCreate",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "team_create",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/TeamCreateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevContriHelmet",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_contri_helmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DevContriHelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevContriChestplate",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_contri_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DevContriChestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevContriLeggings",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_contri_leggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DevContriLeggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevContriBoots",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_contri_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DevContriBootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Developer",
+      "type": "armor",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/item/DeveloperItem.java",
+          "src/main/resources/assets/aae_items/models/item/developer_helmet.json",
+          "src/main/resources/assets/aae_items/models/item/developer_chestplate.json",
+          "src/main/resources/assets/aae_items/models/item/developer_leggings.json",
+          "src/main/resources/assets/aae_items/models/item/developer_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "Contributor",
+      "type": "armor",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ideagiver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/ideagiver_chestplate.json",
+          "src/main/java/net/mcreator/aaeitems/item/ContributorItem.java",
+          "src/main/resources/assets/aae_items/models/item/ideagiver_leggings.json",
+          "src/main/resources/assets/aae_items/models/item/ideagiver_helmet.json",
+          "src/main/resources/assets/aae_items/models/item/ideagiver_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "HeWhoGames",
+      "type": "achievement",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "he_who_games",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/he_who_games.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DevAdvancement",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_advancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DevAdvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Birthday",
+      "type": "achievement",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birthday",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/birthday.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GoldenBirthday",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_birthday",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/golden_birthday.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BirthdayMain",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birthday_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/BirthdayMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "NoRulebreaking",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_rulebreaking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/no_rulebreaking.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MiniBanHammerCraft",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/mini_ban_hammer_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BanHammerCraft",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/ban_hammer_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BigBanHammerCraft",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/big_ban_hammer_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiggerBanHammerCraft",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_ban_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/bigger_ban_hammer_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiggestBanHammerCraft",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biggest_ban_hammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/biggest_ban_hammer_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DeveloperCommandPro",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_command_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DeveloperCommandProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DevE",
+      "type": "command",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/DevECommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "AAEItemsPixelHammers",
+      "type": "tab",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_pixel_hammers",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "BiggerBanHammerObtained",
+      "type": "achievement",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_ban_hammer_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/bigger_ban_hammer_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BigBanHammerObtained",
+      "type": "achievement",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_hammer_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/big_ban_hammer_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BanHammerObtained",
+      "type": "achievement",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_hammer_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/ban_hammer_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MiniBanHammerObtained",
+      "type": "achievement",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_hammer_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/mini_ban_hammer_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EngieGamesGUI",
+      "type": "livingentity",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engie_games_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/client/renderer/EngieGamesGUIRenderer.java",
+          "src/main/resources/assets/aae_items/models/item/engie_games_gui_spawn_egg.json",
+          "src/main/java/net/mcreator/aaeitems/entity/EngieGamesGUIEntity.java"
+        ]
+      },
+      "path": "~/GUIMob"
+    },
+    {
+      "name": "GUIRender",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_render",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/GUIRenderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GUIRender2",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_render_2",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/GUIRender2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MetalChestDarkOak",
+      "type": "block",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_dark_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/metal_chest_dark_oak.json",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestDarkOakBlock.java",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestDarkOakBlockEntity.java",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_dark_oak.json",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_dark_oak.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestSpruce",
+      "type": "block",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_spruce",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/block/metal_chest_spruce.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_spruce.json",
+          "src/main/resources/assets/aae_items/models/item/metal_chest_spruce.json",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestSpruceBlockEntity.java",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestSpruceBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestAcacia",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_acacia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestAcaciaBlock.java",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestAcaciaBlockEntity.java",
+          "src/main/resources/assets/aae_items/models/item/metal_chest_acacia.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_acacia.json",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_acacia.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestBirch",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_birch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestBirchBlockEntity.java",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_birch.json",
+          "src/main/resources/assets/aae_items/models/item/metal_chest_birch.json",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestBirchBlock.java",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_birch.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestWarped",
+      "type": "block",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_warped",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_warped.json",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestWarpedBlock.java",
+          "src/main/resources/assets/aae_items/models/item/metal_chest_warped.json",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestWarpedBlockEntity.java",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_warped.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestCrimson",
+      "type": "block",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_crimson",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/metal_chest_crimson.json",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestCrimsonBlock.java",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestCrimsonBlockEntity.java",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_crimson.json",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_crimson.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MetalChestJungle",
+      "type": "block",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_chest_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/metal_chest_jungle.json",
+          "src/main/resources/assets/aae_items/blockstates/metal_chest_jungle.json",
+          "src/main/resources/assets/aae_items/models/block/metal_chest_jungle.json",
+          "src/main/java/net/mcreator/aaeitems/block/entity/MetalChestJungleBlockEntity.java",
+          "src/main/java/net/mcreator/aaeitems/block/MetalChestJungleBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CookedPizzaToSlices",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_pizza_to_slices",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/CookedPizzaToSlicesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "IdeaGiverCommandPro",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver_command_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/IdeaGiverCommandProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Tester",
+      "type": "armor",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tester",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/tester_helmet.json",
+          "src/main/resources/assets/aae_items/models/item/tester_boots.json",
+          "src/main/resources/assets/aae_items/models/item/tester_chestplate.json",
+          "src/main/resources/assets/aae_items/models/item/tester_leggings.json",
+          "src/main/java/net/mcreator/aaeitems/item/TesterItem.java"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "TesterGiverCommandPro",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tester_giver_command_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/TesterGiverCommandProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "IdeaGiver",
+      "type": "command",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/IdeaGiverCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "Testerc",
+      "type": "command",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testerc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/TestercCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "EngiOreToEngieGem",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_ore_to_engie_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engi_ore_to_engie_gem.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DeepslateEngiOreToEngieGem",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_engi_ore_to_engie_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/deepslate_engi_ore_to_engie_gem.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngiOreToEngieGemBlast",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_ore_to_engie_gem_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engi_ore_to_engie_gem_blast.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DeepslateEngiOreToEngieGemBlast",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_engi_ore_to_engie_gem_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/deepslate_engi_ore_to_engie_gem_blast.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngiOreToEngieGemEE",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_ore_to_engie_gem_ee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engi_ore_to_engie_gem_ee.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DeepslateEngiOreToEngieGemEE",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_engi_ore_to_engie_gem_ee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/deepslate_engi_ore_to_engie_gem_ee.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EngiOreToEngieGemEEBlast",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engi_ore_to_engie_gem_ee_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/engi_ore_to_engie_gem_ee_blast.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DeepslateEngiOreToEngieGemEEBlast",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_engi_ore_to_engie_gem_ee_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/deepslate_engi_ore_to_engie_gem_ee_blast.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AAEEngie",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_engie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_items/models/item/aae_engie.json",
+          "src/main/java/net/mcreator/aaeitems/item/AAEEngieItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DeveloperEngie",
+      "type": "painting",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_engie",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "DeveloperEngie2",
+      "type": "painting",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_engie_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "DeveloperEngie3",
+      "type": "painting",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_engie_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "DeveloperEngie4",
+      "type": "painting",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_engie_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "IdeaGiverBlood",
+      "type": "painting",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver_blood",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "IdeaGiverBlood2",
+      "type": "painting",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver_blood_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "IdeaGiverBlood3",
+      "type": "painting",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver_blood_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "IdeaGiverBlood4",
+      "type": "painting",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idea_giver_blood_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerShark",
+      "type": "painting",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerShark2",
+      "type": "painting",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerShark3",
+      "type": "painting",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerShark4",
+      "type": "painting",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerSharkCatOnsie",
+      "type": "painting",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_cat_onsie",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerSharkCatOnsie2",
+      "type": "painting",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_cat_onsie_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerSharkCatOnsie3",
+      "type": "painting",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_cat_onsie_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TigerSharkCatOnsie4",
+      "type": "painting",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_shark_cat_onsie_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEItemsLogo",
+      "type": "painting",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_logo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEItemsLogo2",
+      "type": "painting",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_logo_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEItemsLogo3",
+      "type": "painting",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_logo_3",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AAEItemsLogo4",
+      "type": "painting",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_items_logo_4",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "RareChance",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_chance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/RareChanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "NewWorld",
+      "type": "achievement",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/new_world.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NewWorldNewProblem",
+      "type": "achievement",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_world_new_problem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/new_world_new_problem.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DetectiveFindEngie",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detective_find_engie",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Gamerule"
+    },
+    {
+      "name": "DetectiveGamerule",
+      "type": "procedure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "detective_gamerule",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/DetectiveGameruleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StartDetectiveModePro",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_detective_mode_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/procedures/StartDetectiveModeProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StartDetectiveMode",
+      "type": "command",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_detective_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaeitems/command/StartDetectiveModeCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "EngiesScytheObtained",
+      "type": "achievement",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engies_scythe_obtained",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/advancements/engies_scythe_obtained.json"
+        ]
+      },
+      "path": "~/Advancements"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "yeah",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "detective",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.angry_engie_tool_obtained.descr": "Obtain one of the Angry Engie tools.",
+      "item.aae_items.operators_boots": "Operators Boots",
+      "block.aae_items.angry_engie_block": "Angry Engie Block",
+      "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.aae_items.echdeath": "ECHDEATH",
+      "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
+      "block.aae_items.old_engie_ore": "Engie Ore",
+      "block.aae_items.metal_chest_birch": "Birch Metal Chest",
+      "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
+      "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.aae_items.angry_engie_axe": "Angry Engie Axe",
+      "block.aae_items.deepslate_engie_ore": "Engie Ore",
+      "item.aae_items.operators_leggings": "Operators Leggings",
+      "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
+      "advancements.he_who_games.descr": "Meet the man himself. (Most likely impossible.)",
+      "item.aae_items.enraged_engie_hoe": "Enraged Engie Hoe",
+      "itemGroup.tabaae_items_food": "Food (AAE Items)",
+      "advancements.ban_hammer_obtained.descr": "Obtain a Ban Hammer.",
+      "advancements.new_world_new_problem.descr": "Create a world with the new gamerule.",
+      "item.aae_items.engie_gem": "Engie Gem",
+      "advancements.angry_engie_essence_obtained.descr": "Obtain an Angry Engie Essence for the first time.",
+      "item.aae_items.developer_chestplate": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "advancements.big_ban_hammer_obtained.descr": "Obtain a Big Ban Hammer.",
+      "item.aae_items.ideagiver_boots": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.aae_items.enraged_engie_helmet": "Enraged Engie Helmet",
+      "item.aae_items.operators_pickaxe": "Operators Pickaxe",
+      "item.aae_items.engi_pickaxe": "Engi Pickaxe",
+      "item.aae_items.dough": "Dough",
+      "item.aae_items.operators_axe": "Operators Axe",
+      "item.aae_items.pizza_slice": "Pizza Slice",
+      "advancements.enraged_engie_tool_obtained.descr": "Obtain one of the Enraged Engie tools.",
+      "advancements.engie_armor_made.descr": "\"The sound of progress my friend.\" (Obtain Engie Armor for the first time.)",
+      "advancements.no_rulebreaking.title": "Remember lad, NO RULEBREAKING.",
+      "item.aae_items.ban_hammer": "Ban Hammer",
+      "item.aae_items.cheese_puffs_opened": "Cheese Puffs Opened",
+      "advancements.new_world.descr": "Create a new world with the mod(s).",
+      "block.aae_items.metal_chest_jungle": "Jungle Metal Chest",
+      "advancements.mini_ban_hammer_obtained.descr": "Obtain a Mini Ban Hammer.",
+      "item.aae_items.aae_engie": "EngieGames",
+      "block.aae_items.metal_chest": "Metal Chest",
+      "item.aae_items.crucifix": "Crucifix",
+      "item.aae_items.developer_leggings": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "block.aae_items.metal_chest_warped": "Warped Metal Chest",
+      "advancements.engie_gem_obtained.title": "Who trapped bro in there?",
+      "block.aae_items.old_deepslate_engie_ore": "Engie Ore",
+      "advancements.engie_tool_obtained.title": "Dude what the actual living hell is this..?",
+      "item.aae_items.angry_engie_chestplate": "Angry Engie Chestplate",
+      "advancements.angry_engie_armor_made.title": "Well that was a waste of time.",
+      "item.aae_items.developer_boots": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "block.aae_items.metal_chest_dark_oak": "Dark Oak Metal Chest",
+      "item.aae_items.cracker_dust": "Cracker Dust",
+      "block.aae_items.engie_block": "Engie Block",
+      "advancements.enraged_engie_armor_made.title": "Well that was even more of a waste of my bloody time.",
+      "item.aae_items.engie_leggings": "Engie Leggings",
+      "item.aae_items.engie_boots": "Engie Boots",
+      "item.aae_items.mini_ban_hammer_pixel": "Mini Ban Hammer Pixel",
+      "item.aae_items.enraged_engie_essence": "Enraged Engie Essence",
+      "item.aae_items.bigger_ban_hammer": "Bigger Ban Hammer",
+      "item.aae_items.uncooked_pizza": "Uncooked Pizza",
+      "item.aae_items.developer_helmet": "\"I\u0027m a developer and I\u0027m proud.\"",
+      "item.aae_items.operators_chestplate": "Operators Chestplate",
+      "item.aae_items.engie_chestplate": "Engie Chestplate",
+      "advancements.golden_birthday.descr": "\"Look at me ma! I\u0027m 25 now!\"",
+      "gamerule.detectiveFindEngie": "Detective Mode (Find out)",
+      "advancements.angry_engie_armor_made.descr": "Obtain Angry Engie Armor for the first time.",
+      "item.aae_items.angry_engie_essence": "Angry Engie Essence",
+      "item.aae_items.ban_hammer_pixel": "Ban Hammer Pixel",
+      "item.aae_items.enraged_engie_leggings": "Enraged Engie Leggings",
+      "itemGroup.tabaae_items_armor": "Armor (AAE Items)",
+      "block.aae_items.metal_chest_acacia": "Acacia Metal Chest",
+      "item.aae_items.true_ban_hammer_pixel": "True Ban Hammer Pixel (COMMAND)",
+      "advancements.bigger_ban_hammer_obtained.descr": "Obtain a Bigger Ban Hammer.",
+      "item.aae_items.biggest_ban_hammer": "Biggest Ban Hammer",
+      "advancements.engie_gem_obtained.descr": "Obtain an Engie Gem.",
+      "item.aae_items.enraged_engie_shovel": "Enraged Engie Shovel",
+      "item.aae_items.operators_hoe": "Operators Hoe",
+      "itemGroup.tabaae_items_pixel_hammers": "Pixel Ban Hammers (AAE Items)",
+      "itemGroup.tabaae_items_items": "Items (AAE Items)",
+      "block.aae_items.engie_ore": "Engie Ore",
+      "item.aae_items.engi_axe": "Engi Axe",
+      "item.aae_items.cooked_pizza": "Cooked Pizza",
+      "item.aae_items.ideagiver_chestplate": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "advancements.new_world.title": "Alright what can go wrong?",
+      "item.aae_items.big_ban_hammer": "Big Ban Hammer",
+      "advancements.enraged_engie_essence_obtained.title": "MAKE IT STOP LOOKING AT ME PLEASE!?!?!",
+      "item.aae_items.engie_shovel": "Engie Shovel",
+      "item.aae_items.kick_ban_hammer_pixel": "Kick Ban Hammer Pixel (COMMAND)",
+      "advancements.no_rulebreaking.descr": "Obtain the biggest Ban Hammer.",
+      "advancements.engies_scythe_obtained.title": "\"One of many\"... Hm...",
+      "item.aae_items.tester_chestplate": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "item.aae_items.angry_engie_pickaxe": "Angry Engie Pickaxe",
+      "block.aae_items.enraged_engie_block": "Enraged Engie Block",
+      "item.aae_items.true_ban_hammer_ncmd_pixel": "True Ban Hammer Pixel (NO COMMAND)",
+      "item.aae_items.engi_shovel": "Engi Shovel",
+      "item.aae_items.cheese": "Cheese",
+      "entity.aae_items.engie_games_gui": "EngieGames",
+      "advancements.new_world_new_problem.title": "This is not right for sure.",
+      "advancements.he_who_games.title": "Think fast chucklenuts!",
+      "item.aae_items.mini_ban_hammer": "Mini Ban Hammer",
+      "advancements.bigger_ban_hammer_obtained.title": "How big can these get..",
+      "item.aae_items.enraged_engie_boots": "Enraged Engie Boots",
+      "item.aae_items.angry_engie_leggings": "Angry Engie Leggings",
+      "advancements.golden_birthday.title": "Happy golden birthday Engie!",
+      "item.aae_items.engie_games_gui_spawn_egg": "EngieGames Spawn Egg",
+      "item.aae_items.bigger_ban_hammer_pixel": "Bigger Ban Hammer Pixel",
+      "item.aae_items.tester_helmet": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "gamerule.detectiveFindEngie.description": "Sets day to 100, different beginning to the world.",
+      "item.aae_items.ideagiver_leggings": "\"I\u0027m a idea giver and I\u0027m proud.\"",
+      "item.aae_items.engie_pickaxe": "Engie Pickaxe",
+      "item.aae_items.crackers_in_bowl": "Crackers In Bowl",
+      "item.aae_items.empty_cheese_puffs_bin": "Empty Cheese Puffs Bin",
+      "item.aae_items.operators_shovel": "Operators Shovel",
+      "item.aae_items.engie_helmet": "Engie Helmet",
+      "item.aae_items.enraged_engie_axe": "Enraged Engie Axe",
+      "item.aae_items.cheese_puffs_unopened": "Cheese Puffs Unopened",
+      "advancements.engie_tool_obtained.descr": "Obtain one of the Engie tools.",
+      "item.aae_items.echdeath_pixel": "PIXEL ECHDEATH",
+      "item.aae_items.true_ban_hammer_ncmd": "True Ban Hammer (NO COMMAND)",
+      "item.aae_items.enraged_engie_chestplate": "Enraged Engie Chestplate",
+      "block.aae_items.metal_chest_oak": "Oak Metal Chest",
+      "item.aae_items.true_ban_hammer": "True Ban Hammer (COMMAND)",
+      "advancements.birthday.descr": "Play a world on Engie\u0027s birthday.",
+      "item.aae_items.biggest_ban_hammer_pixel": "Biggest Ban Hammer Pixel",
+      "item.aae_items.enraged_engie_pickaxe": "Enraged Engie Pickaxe",
+      "advancements.engie_armor_made.title": "\"What was noise?\"",
+      "advancements.enraged_engie_armor_made.descr": "Obtain Enraged Engie Armor for the first time.",
+      "item.aae_items.engie_axe": "Engie Axe",
+      "advancements.ban_hammer_obtained.title": "So this is normal size? Pretty small to me.",
+      "item.aae_items.angry_engie_helmet": "Angry Engie Helmet",
+      "item.aae_items.angry_engie_boots": "Angry Engie Boots",
+      "advancements.birthday.title": "Happy birthday Engie!",
+      "item.aae_items.big_ban_hammer_pixel": "Big Ban Hammer Pixel",
+      "block.aae_items.metal_chest_spruce": "Spruce Metal Chest",
+      "item.aae_items.angry_engie_hoe": "Angry Engie Hoe",
+      "advancements.big_ban_hammer_obtained.title": "A lot bigger than the normal one..",
+      "advancements.angry_engie_essence_obtained.title": "Why is it staring at me.",
+      "advancements.mini_ban_hammer_obtained.title": "This legit could have been a toy.",
+      "item.aae_items.engie_hoe": "Engie Hoe",
+      "item.aae_items.tester_boots": "\"I\u0027m a tester and I\u0027m proud.\"",
+      "advancements.enraged_engie_tool_obtained.title": "I wasted time for this and I\u0027m extremely disturbed by this now..",
+      "advancements.engies_scythe_obtained.descr": "Obtain Engie\u0027s Scythe.",
+      "block.aae_items.thanks_for_playing": "Thanks for playing!",
+      "item.aae_items.dough_with_sauce": "Dough With Sauce",
+      "advancements.angry_engie_tool_obtained.title": "I\u0027m mildly disturbed now having this..",
+      "item.aae_items.angry_engie_shovel": "Angry Engie Shovel",
+      "item.aae_items.engies_scythe": "Engie\u0027s Scythe",
+      "block.aae_items.metal_table": "Metal Chest",
+      "item.aae_items.operators_helmet": "Operators Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Easter Eggs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ban Hammers",
+        "children": [
+          {
+            "name": "Pixel Var",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "Operator Stuff",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Loot Table",
+        "children": []
+      },
+      {
+        "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "GUIMob",
+        "children": []
+      },
+      {
+        "name": "Gamerule",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "aae_items",
+    "modName": "AAE Items",
+    "version": "10.19.24",
+    "description": "Made with MCreator.",
+    "author": "EngieGames",
+    "websiteURL": "https://www.twitch.tv/engiegames",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "aae_items_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Find the book.",
+    "modElementsPackage": "net.mcreator.aaeitems",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

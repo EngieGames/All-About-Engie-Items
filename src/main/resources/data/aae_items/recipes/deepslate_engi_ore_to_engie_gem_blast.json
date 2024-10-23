@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "aae_items:deepslate_engie_ore"
+  },
+  "result": "aae_items:engie_gem"
+}

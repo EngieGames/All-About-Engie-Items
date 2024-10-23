@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aae_items:cheese"
+    },
+    {
+      "item": "aae_items:dough_with_sauce"
+    }
+  ],
+  "result": {
+    "item": "aae_items:uncooked_pizza",
+    "count": 1
+  }
+}

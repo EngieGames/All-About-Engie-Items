@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/ban_hammer_ban_pixel",
+  "textures": {
+    "0": "aae_items:blocks/truebanpixel",
+    "particle": "aae_items:items/truebanpixel"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/engi_scythe",
+  "textures": {
+    "0": "aae_items:blocks/scythe",
+    "particle": "aae_items:items/him"
+  }
+}

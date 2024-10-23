@@ -1,0 +1,9 @@
+{
+  "parent": "aae_items:custom/metal_chest",
+  "textures": {
+    "all": "aae_items:blocks/metalchest",
+    "particle": "aae_items:blocks/oldchest",
+    "0": "aae_items:blocks/metalchest"
+  },
+  "render_type": "solid"
+}

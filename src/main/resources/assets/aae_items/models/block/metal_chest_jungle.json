@@ -1,0 +1,10 @@
+{
+  "parent": "aae_items:custom/metal_chest_jungle",
+  "textures": {
+    "all": "aae_items:blocks/metalchest",
+    "particle": "aae_items:blocks/oldchest",
+    "0": "aae_items:blocks/metalchest",
+    "1": "aae_items:blocks/jungle"
+  },
+  "render_type": "solid"
+}

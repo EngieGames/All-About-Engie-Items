@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "aae_items:developer_engie_2",
+    "aae_items:developer_engie",
+    "aae_items:developer_engie_3",
+    "aae_items:developer_engie_4",
+    "aae_items:idea_giver_blood",
+    "aae_items:idea_giver_blood_2",
+    "aae_items:idea_giver_blood_3",
+    "aae_items:idea_giver_blood_4",
+    "aae_items:tiger_shark",
+    "aae_items:tiger_shark_2",
+    "aae_items:tiger_shark_3",
+    "aae_items:tiger_shark_4",
+    "aae_items:tiger_shark_cat_onsie",
+    "aae_items:tiger_shark_cat_onsie_2",
+    "aae_items:tiger_shark_cat_onsie_3",
+    "aae_items:tiger_shark_cat_onsie_4",
+    "aae_items:aae_items_logo",
+    "aae_items:aae_items_logo_2",
+    "aae_items:aae_items_logo_3",
+    "aae_items:aae_items_logo_4"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_items:blocks/thanksforplaying",
+    "up": "aae_items:blocks/thanksforplaying",
+    "north": "aae_items:blocks/thanksforplaying",
+    "east": "aae_items:blocks/thanksforplaying",
+    "south": "aae_items:blocks/thanksforplaying",
+    "west": "aae_items:blocks/thanksforplaying",
+    "particle": "aae_items:blocks/thanksforplaying"
+  },
+  "render_type": "solid"
+}

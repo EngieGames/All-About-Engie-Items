@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/pizza_slice",
+  "textures": {
+    "0": "aae_items:blocks/pizzaslice",
+    "particle": "aae_items:items/pizzaitem"
+  }
+}

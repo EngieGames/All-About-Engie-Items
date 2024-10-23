@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/crucifix",
+  "textures": {
+    "0": "aae_items:blocks/crucifix",
+    "particle": "aae_items:items/crucifixpixel"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_items:metal_chest"
+    },
+    "1": {
+      "item": "minecraft:oak_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "aae_items:metal_chest_oak",
+    "count": 1
+  }
+}

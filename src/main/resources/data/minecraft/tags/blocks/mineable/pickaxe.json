@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "aae_items:engie_block",
+    "aae_items:angry_engie_block",
+    "aae_items:enraged_engie_block",
+    "aae_items:engie_ore",
+    "aae_items:deepslate_engie_ore",
+    "aae_items:metal_table",
+    "aae_items:old_engie_ore",
+    "aae_items:old_deepslate_engie_ore",
+    "aae_items:metal_chest",
+    "aae_items:metal_chest_oak",
+    "aae_items:metal_chest_dark_oak",
+    "aae_items:metal_chest_spruce",
+    "aae_items:metal_chest_acacia",
+    "aae_items:metal_chest_birch",
+    "aae_items:metal_chest_warped",
+    "aae_items:metal_chest_crimson",
+    "aae_items:metal_chest_jungle"
+  ]
+}

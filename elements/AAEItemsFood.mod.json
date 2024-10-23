@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Food (AAE Items)",
+    "icon": {
+      "value": "CUSTOM:CookedPizza"
+    },
+    "showSearch": false
+  }
+}

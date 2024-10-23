@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_items:engie_gem"
+    },
+    "1": {
+      "item": "aae_items:engie_gem"
+    },
+    "2": {
+      "item": "aae_items:engie_gem"
+    },
+    "3": {
+      "item": "aae_items:engie_gem"
+    },
+    "4": {
+      "item": "aae_items:engie_gem"
+    },
+    "5": {
+      "item": "aae_items:engie_gem"
+    },
+    "6": {
+      "item": "aae_items:engie_gem"
+    },
+    "7": {
+      "item": "aae_items:engie_gem"
+    },
+    "8": {
+      "item": "aae_items:engie_gem"
+    }
+  },
+  "result": {
+    "item": "aae_items:engie_block",
+    "count": 1
+  }
+}

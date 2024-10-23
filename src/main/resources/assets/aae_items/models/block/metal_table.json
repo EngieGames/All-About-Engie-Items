@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_items:blocks/oldengitablebottom",
+    "up": "aae_items:blocks/oldengitabletop",
+    "north": "aae_items:blocks/oldengitableside",
+    "east": "aae_items:blocks/oldengitableside",
+    "south": "aae_items:blocks/oldengitableside",
+    "west": "aae_items:blocks/oldengitableside",
+    "particle": "aae_items:blocks/oldengitablebottom"
+  },
+  "render_type": "solid"
+}

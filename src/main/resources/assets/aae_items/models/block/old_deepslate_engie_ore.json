@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_items:blocks/olddeepslateengi",
+    "up": "aae_items:blocks/olddeepslateengi",
+    "north": "aae_items:blocks/olddeepslateengi",
+    "east": "aae_items:blocks/olddeepslateengi",
+    "south": "aae_items:blocks/olddeepslateengi",
+    "west": "aae_items:blocks/olddeepslateengi",
+    "particle": "aae_items:blocks/olddeepslateengi"
+  },
+  "render_type": "solid"
+}

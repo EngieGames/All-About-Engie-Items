@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_items:blocks/eeblock",
+    "up": "aae_items:blocks/eeblock",
+    "north": "aae_items:blocks/eeblock",
+    "east": "aae_items:blocks/eeblock",
+    "south": "aae_items:blocks/eeblock",
+    "west": "aae_items:blocks/eeblock",
+    "particle": "aae_items:blocks/eeblock"
+  },
+  "render_type": "solid"
+}

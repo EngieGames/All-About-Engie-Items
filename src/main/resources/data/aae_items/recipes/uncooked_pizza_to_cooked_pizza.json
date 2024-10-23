@@ -1,0 +1,10 @@
+{
+  "group": "smelting",
+  "type": "minecraft:smelting",
+  "experience": 25,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "aae_items:uncooked_pizza"
+  },
+  "result": "aae_items:cooked_pizza"
+}

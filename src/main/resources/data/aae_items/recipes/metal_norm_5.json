@@ -1,0 +1,16 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_items:metal_chest_crimson"
+    }
+  },
+  "result": {
+    "item": "aae_items:metal_chest",
+    "count": 1
+  }
+}
