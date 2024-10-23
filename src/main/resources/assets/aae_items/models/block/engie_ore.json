@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/engiore",
     "west": "aae_items:blocks/engiore",
     "particle": "aae_items:blocks/engiore"
-  },
-  "render_type": "solid"
+  }
 }

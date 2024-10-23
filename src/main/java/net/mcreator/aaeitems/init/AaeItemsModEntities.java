@@ -21,7 +21,7 @@ import net.mcreator.aaeitems.AaeItemsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AaeItemsModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AaeItemsMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, AaeItemsMod.MODID);
 	public static final RegistryObject<EntityType<EngieGamesGUIEntity>> ENGIE_GAMES_GUI = register("engie_games_gui", EntityType.Builder.<EngieGamesGUIEntity>of(EngieGamesGUIEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(1024).setUpdateInterval(3).setCustomClientFactory(EngieGamesGUIEntity::new).fireImmune().sized(0.6f, 1.8f));
 

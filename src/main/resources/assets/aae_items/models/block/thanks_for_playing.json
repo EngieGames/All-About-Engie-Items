@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/thanksforplaying",
     "west": "aae_items:blocks/thanksforplaying",
     "particle": "aae_items:blocks/thanksforplaying"
-  },
-  "render_type": "solid"
+  }
 }

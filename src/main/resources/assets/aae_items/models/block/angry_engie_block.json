@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/aeblock",
     "west": "aae_items:blocks/aeblock",
     "particle": "aae_items:blocks/aeblock"
-  },
-  "render_type": "solid"
+  }
 }

@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/deepslateengi",
     "west": "aae_items:blocks/deepslateengi",
     "particle": "aae_items:blocks/deepslateengi"
-  },
-  "render_type": "solid"
+  }
 }

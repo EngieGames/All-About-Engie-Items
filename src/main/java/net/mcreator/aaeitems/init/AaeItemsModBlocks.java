@@ -7,6 +7,10 @@ package net.mcreator.aaeitems.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -50,4 +54,21 @@ public class AaeItemsModBlocks {
 	public static final RegistryObject<Block> METAL_CHEST_WARPED = REGISTRY.register("metal_chest_warped", () -> new MetalChestWarpedBlock());
 	public static final RegistryObject<Block> METAL_CHEST_CRIMSON = REGISTRY.register("metal_chest_crimson", () -> new MetalChestCrimsonBlock());
 	public static final RegistryObject<Block> METAL_CHEST_JUNGLE = REGISTRY.register("metal_chest_jungle", () -> new MetalChestJungleBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			MetalTableBlock.registerRenderLayer();
+			MetalChestBlock.registerRenderLayer();
+			MetalChestOakBlock.registerRenderLayer();
+			MetalChestDarkOakBlock.registerRenderLayer();
+			MetalChestSpruceBlock.registerRenderLayer();
+			MetalChestAcaciaBlock.registerRenderLayer();
+			MetalChestBirchBlock.registerRenderLayer();
+			MetalChestWarpedBlock.registerRenderLayer();
+			MetalChestCrimsonBlock.registerRenderLayer();
+			MetalChestJungleBlock.registerRenderLayer();
+		}
+	}
 }

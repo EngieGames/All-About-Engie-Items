@@ -1,3 +1,4 @@
+
 package net.mcreator.aaeitems.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -43,10 +44,10 @@ public class MetalChestUIScreen extends AbstractContainerScreen<MetalChestUIMenu
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		if (GUIRenderProcedure.execute(world) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryRaw(this.leftPos + 260, this.topPos + 203, 30, 0f + (float) Math.atan((this.leftPos + 260 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
+			InventoryScreen.renderEntityInInventory(this.leftPos + 260, this.topPos + 203, 30, (float) Math.atan((this.leftPos + 260 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
 		}
 		if (GUIRender2Procedure.execute(entity) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryRaw(this.leftPos + 36, this.topPos + 203, 30, 0f + (float) Math.atan((this.leftPos + 36 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
+			InventoryScreen.renderEntityInInventory(this.leftPos + 36, this.topPos + 203, 30, (float) Math.atan((this.leftPos + 36 - mouseX) / 40.0), (float) Math.atan((this.topPos + 153 - mouseY) / 40.0), livingEntity);
 		}
 		this.renderTooltip(ms, mouseX, mouseY);
 	}

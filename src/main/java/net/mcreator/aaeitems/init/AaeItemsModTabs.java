@@ -4,6 +4,9 @@
  */
 package net.mcreator.aaeitems.init;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -20,7 +23,7 @@ public class AaeItemsModTabs {
 				return new ItemStack(AaeItemsModItems.ENGIE_HELMET.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -31,7 +34,7 @@ public class AaeItemsModTabs {
 				return new ItemStack(AaeItemsModItems.ENGIE_GEM.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -42,7 +45,7 @@ public class AaeItemsModTabs {
 				return new ItemStack(AaeItemsModItems.COOKED_PIZZA.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -53,7 +56,7 @@ public class AaeItemsModTabs {
 				return new ItemStack(AaeItemsModItems.BAN_HAMMER_PIXEL.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}

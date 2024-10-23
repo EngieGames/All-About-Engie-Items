@@ -24,7 +24,7 @@ import net.mcreator.aaeitems.block.entity.MetalChestAcaciaBlockEntity;
 import net.mcreator.aaeitems.AaeItemsMod;
 
 public class AaeItemsModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, AaeItemsMod.MODID);
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, AaeItemsMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> METAL_TABLE = register("metal_table", AaeItemsModBlocks.METAL_TABLE, MetalTableBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST = register("metal_chest", AaeItemsModBlocks.METAL_CHEST, MetalChestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> METAL_CHEST_OAK = register("metal_chest_oak", AaeItemsModBlocks.METAL_CHEST_OAK, MetalChestOakBlockEntity::new);

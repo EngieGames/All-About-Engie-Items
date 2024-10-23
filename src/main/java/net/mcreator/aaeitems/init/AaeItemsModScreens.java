@@ -1,6 +1,6 @@
 
 /*
- *	MCreator note: This file will be REGENERATED on each build.
+ *    MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.aaeitems.init;
 
@@ -18,7 +18,7 @@ public class AaeItemsModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(AaeItemsModMenus.METAL_CHEST_UI.get(), MetalChestUIScreen::new);
+			MenuScreens.register(AaeItemsModMenus.METAL_CHEST_UI, MetalChestUIScreen::new);
 		});
 	}
 }

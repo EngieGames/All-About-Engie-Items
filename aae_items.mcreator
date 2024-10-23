@@ -321,7 +321,6 @@
         "files": [
           "src/main/resources/assets/aae_items/blockstates/engie_ore.json",
           "src/main/java/net/mcreator/aaeitems/block/EngieOreBlock.java",
-          "src/main/resources/data/aae_items/forge/biome_modifier/engie_ore_biome_modifier.json",
           "src/main/java/net/mcreator/aaeitems/world/features/ores/EngieOreFeature.java",
           "src/main/resources/assets/aae_items/models/item/engie_ore.json",
           "src/main/resources/assets/aae_items/models/block/engie_ore.json"
@@ -341,7 +340,6 @@
           "src/main/java/net/mcreator/aaeitems/block/DeepslateEngieOreBlock.java",
           "src/main/resources/assets/aae_items/blockstates/deepslate_engie_ore.json",
           "src/main/resources/assets/aae_items/models/block/deepslate_engie_ore.json",
-          "src/main/resources/data/aae_items/forge/biome_modifier/deepslate_engie_ore_biome_modifier.json",
           "src/main/resources/assets/aae_items/models/item/deepslate_engie_ore.json",
           "src/main/java/net/mcreator/aaeitems/world/features/ores/DeepslateEngieOreFeature.java"
         ]
@@ -1126,8 +1124,7 @@
       "registry_name": "nothing",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/aaeitems/world/features/NothingFeature.java",
-          "src/main/resources/data/aae_items/forge/biome_modifier/nothing_biome_modifier.json"
+          "src/main/java/net/mcreator/aaeitems/world/features/NothingFeature.java"
         ]
       },
       "path": "~/Structures"
@@ -1205,8 +1202,7 @@
       "registry_name": "item_house",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/aaeitems/world/features/ItemHouseFeature.java",
-          "src/main/resources/data/aae_items/forge/biome_modifier/item_house_biome_modifier.json"
+          "src/main/java/net/mcreator/aaeitems/world/features/ItemHouseFeature.java"
         ]
       },
       "path": "~/Structures"
@@ -4041,15 +4037,15 @@
       "block.aae_items.angry_engie_block": "Angry Engie Block",
       "item.aae_items.tester_leggings": "\"I\u0027m a tester and I\u0027m proud.\"",
       "item.aae_items.echdeath": "ECHDEATH",
-      "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
-      "block.aae_items.old_engie_ore": "Engie Ore",
       "block.aae_items.metal_chest_birch": "Birch Metal Chest",
+      "block.aae_items.old_engie_ore": "Engie Ore",
+      "item.aae_items.kick_ban_hammer": "Kick Ban Hammer (COMMAND)",
       "advancements.enraged_engie_essence_obtained.descr": "Obtain an Enraged Engie Essence for the first time.",
       "item.aae_items.ideagiver_helmet": "\"I\u0027m a idea giver and I\u0027m proud.\"",
       "item.aae_items.angry_engie_axe": "Angry Engie Axe",
       "block.aae_items.deepslate_engie_ore": "Engie Ore",
-      "item.aae_items.operators_leggings": "Operators Leggings",
       "block.aae_items.metal_chest_crimson": "Crimson Metal Chest",
+      "item.aae_items.operators_leggings": "Operators Leggings",
       "advancements.he_who_games.descr": "Meet the man himself. (Most likely impossible.)",
       "item.aae_items.enraged_engie_hoe": "Enraged Engie Hoe",
       "itemGroup.tabaae_items_food": "Food (AAE Items)",
@@ -4288,7 +4284,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Find the book.",
     "modElementsPackage": "net.mcreator.aaeitems",
     "lockBaseModFiles": false

@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/oldengiore",
     "west": "aae_items:blocks/oldengiore",
     "particle": "aae_items:blocks/oldengiore"
-  },
-  "render_type": "solid"
+  }
 }

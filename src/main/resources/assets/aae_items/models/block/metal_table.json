@@ -8,6 +8,5 @@
     "south": "aae_items:blocks/oldengitableside",
     "west": "aae_items:blocks/oldengitableside",
     "particle": "aae_items:blocks/oldengitablebottom"
-  },
-  "render_type": "solid"
+  }
 }
