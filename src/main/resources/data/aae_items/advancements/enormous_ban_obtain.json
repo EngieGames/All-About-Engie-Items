@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "aae_items:enormous_ban_hammer_pixel"
+    },
+    "title": {
+      "translate": "advancements.enormous_ban_obtain.title"
+    },
+    "description": {
+      "translate": "advancements.enormous_ban_obtain.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enormous_ban_obtain": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "aae_items:huge_ban_obtain"
+}

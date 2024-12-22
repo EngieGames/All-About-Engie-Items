@@ -6,19 +6,17 @@
     "renderType": 1,
     "texture": "banhammerpixel",
     "customModelName": "ban_hammer_pixel:default",
-    "name": "Ban Hammer Pixel",
-    "specialInfo": [
-      "Reducing Model Lag. Also an easter egg by the way. ;)"
-    ],
+    "name": "Pixelized Ban Hammer",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AAEItemsPixelHammers"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.5,
+    "attackSpeed": 0.5,
     "enchantability": 128000,
-    "damageVsEntity": 500.0,
-    "usageCount": 2000,
+    "damageVsEntity": 300.0,
+    "usageCount": 3000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

@@ -1,5 +1,5 @@
 {
-  "parent": "aae_items:custom/ban_hammer_normal",
+  "parent": "aae_items:custom/ban_hammer",
   "textures": {
     "0": "aae_items:blocks/regular",
     "particle": "aae_items:items/banhammerpixel"

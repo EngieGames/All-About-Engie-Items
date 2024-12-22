@@ -12,7 +12,7 @@ public class BanHammerItem extends SwordItem {
 	public BanHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2000;
+				return 3000;
 			}
 
 			public float getSpeed() {
@@ -20,7 +20,7 @@ public class BanHammerItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 498f;
+				return 298f;
 			}
 
 			public int getLevel() {
@@ -34,6 +34,6 @@ public class BanHammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.5f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_ITEMS));
+		}, 3, -3.5f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_ITEMS));
 	}
 }

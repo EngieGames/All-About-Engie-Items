@@ -1,0 +1,8 @@
+{
+  "parent": "aae_items:custom/comicallymassivebanhammer",
+  "textures": {
+    "0": "aae_items:blocks/regular",
+    "1": "aae_items:blocks/signatures",
+    "particle": "aae_items:items/banhammerpixel"
+  }
+}

@@ -1,24 +1,18 @@
 
 package net.mcreator.aaeitems.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.Component;
 
 import net.mcreator.aaeitems.init.AaeItemsModTabs;
-
-import java.util.List;
 
 public class BigBanHammerPixelItem extends SwordItem {
 	public BigBanHammerPixelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3000;
+				return 4500;
 			}
 
 			public float getSpeed() {
@@ -26,7 +20,7 @@ public class BigBanHammerPixelItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 998f;
+				return 448f;
 			}
 
 			public int getLevel() {
@@ -40,12 +34,6 @@ public class BigBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_PIXEL_HAMMERS));
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Reducing Model Lag. Also an easter egg by the way. ;)"));
+		}, 3, -3.25f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_PIXEL_HAMMERS));
 	}
 }

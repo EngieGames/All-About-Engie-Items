@@ -12,12 +12,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.aaeitems.client.gui.MetalChestUIScreen;
+import net.mcreator.aaeitems.client.gui.CodeScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class AaeItemsModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			MenuScreens.register(AaeItemsModMenus.CODE.get(), CodeScreen::new);
 			MenuScreens.register(AaeItemsModMenus.METAL_CHEST_UI.get(), MetalChestUIScreen::new);
 		});
 	}

@@ -13,7 +13,7 @@ import net.minecraft.commands.Commands;
 
 import net.mcreator.aaeitems.procedures.UhhProcedure;
 
-import com.mojang.brigadier.arguments.DoubleArgumentType;
+import com.mojang.brigadier.arguments.BoolArgumentType;
 
 @Mod.EventBusSubscriber
 public class PixelifyCommand {
@@ -21,7 +21,7 @@ public class PixelifyCommand {
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher().register(Commands.literal("pixelify")
 
-				.then(Commands.argument("number", DoubleArgumentType.doubleArg()).executes(arguments -> {
+				.then(Commands.argument("logic", BoolArgumentType.bool()).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
