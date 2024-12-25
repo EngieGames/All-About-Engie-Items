@@ -56,16 +56,16 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 1024,
-    "damageValueHelmet": 150,
-    "damageValueBody": 150,
-    "damageValueLeggings": 150,
-    "damageValueBoots": 150,
+    "maxDamage": 750,
+    "damageValueHelmet": 750,
+    "damageValueBody": 750,
+    "damageValueLeggings": 750,
+    "damageValueBoots": 750,
     "enchantability": 15,
     "toughness": 4.0,
     "knockbackResistance": 0.1,
     "equipSound": {
-      "value": "item.armor.equip_leather"
+      "value": "item.armor.equip_diamond"
     },
     "repairItems": [
       {

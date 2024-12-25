@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.aaeitems.block.ThanksForPlayingBlock;
+import net.mcreator.aaeitems.block.OutragedEngieBlockBlock;
 import net.mcreator.aaeitems.block.OldEngieOreBlock;
 import net.mcreator.aaeitems.block.OldDeepslateEngieOreBlock;
 import net.mcreator.aaeitems.block.MetalTableBlock;
@@ -28,6 +29,7 @@ import net.mcreator.aaeitems.block.EngieOreBlock;
 import net.mcreator.aaeitems.block.EngieBlockBlock;
 import net.mcreator.aaeitems.block.DeepslateEngieOreBlock;
 import net.mcreator.aaeitems.block.AngryEngieBlockBlock;
+import net.mcreator.aaeitems.block.AngelHattedPresentBlock;
 import net.mcreator.aaeitems.AaeItemsMod;
 
 public class AaeItemsModBlocks {
@@ -50,4 +52,6 @@ public class AaeItemsModBlocks {
 	public static final RegistryObject<Block> METAL_CHEST_WARPED = REGISTRY.register("metal_chest_warped", () -> new MetalChestWarpedBlock());
 	public static final RegistryObject<Block> METAL_CHEST_CRIMSON = REGISTRY.register("metal_chest_crimson", () -> new MetalChestCrimsonBlock());
 	public static final RegistryObject<Block> METAL_CHEST_JUNGLE = REGISTRY.register("metal_chest_jungle", () -> new MetalChestJungleBlock());
+	public static final RegistryObject<Block> OUTRAGED_ENGIE_BLOCK = REGISTRY.register("outraged_engie_block", () -> new OutragedEngieBlockBlock());
+	public static final RegistryObject<Block> ANGEL_HATTED_PRESENT = REGISTRY.register("angel_hatted_present", () -> new AngelHattedPresentBlock());
 }

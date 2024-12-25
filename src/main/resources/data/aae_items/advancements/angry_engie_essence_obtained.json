@@ -33,7 +33,19 @@
     }
   },
   "rewards": {
-    "experience": 20
+    "experience": 20,
+    "recipes": [
+      "aae_items:angry_engie_axe_1",
+      "aae_items:angry_engie_axe_2",
+      "aae_items:angry_engie_pickaxe_1",
+      "aae_items:angry_engie_shovel_1",
+      "aae_items:angry_engie_hoe_1",
+      "aae_items:angry_engie_hoe_2",
+      "aae_items:angry_engie_helmet_1",
+      "aae_items:angry_engie_chestplate_1",
+      "aae_items:angry_engie_leggings_1",
+      "aae_items:angry_engie_boots_1"
+    ]
   },
   "parent": "aae_items:engie_gem_obtained"
 }

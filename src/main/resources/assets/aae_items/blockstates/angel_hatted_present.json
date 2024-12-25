@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aae_items:block/angel_hatted_present"
+    },
+    "facing=east": {
+      "model": "aae_items:block/angel_hatted_present",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aae_items:block/angel_hatted_present",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aae_items:block/angel_hatted_present",
+      "y": 270
+    }
+  }
+}

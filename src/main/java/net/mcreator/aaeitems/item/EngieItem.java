@@ -21,17 +21,17 @@ public abstract class EngieItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 342;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 250;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{50, 50, 50, 50}[slot.getIndex()];
+				return new int[]{250, 250, 250, 250}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 5;
 			}
 
 			@Override

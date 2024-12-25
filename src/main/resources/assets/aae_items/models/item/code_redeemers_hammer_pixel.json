@@ -1,0 +1,7 @@
+{
+  "parent": "aae_items:custom/ban_hammer_redeem_pixel",
+  "textures": {
+    "0": "aae_items:blocks/redeempixel",
+    "particle": "aae_items:items/redeempixel"
+  }
+}

@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.enraged_engie_essence_obtained.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -33,7 +33,19 @@
     }
   },
   "rewards": {
-    "experience": 30
+    "experience": 30,
+    "recipes": [
+      "aae_items:enraged_engie_axe_1",
+      "aae_items:enraged_engie_axe_2",
+      "aae_items:enraged_engie_pickaxe_1",
+      "aae_items:enraged_engie_shovel_1",
+      "aae_items:enraged_engie_hoe_1",
+      "aae_items:enraged_engie_hoe_2",
+      "aae_items:enraged_engie_chestplate_1",
+      "aae_items:enraged_engie_leggings_1",
+      "aae_items:enraged_engie_boots_1",
+      "aae_items:enragred_engie_helmet_1"
+    ]
   },
   "parent": "aae_items:angry_engie_essence_obtained"
 }

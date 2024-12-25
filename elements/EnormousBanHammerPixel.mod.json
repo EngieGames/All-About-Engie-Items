@@ -13,7 +13,7 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.75,
+    "attackSpeed": 0.75,
     "enchantability": 128000,
     "damageVsEntity": 900.0,
     "usageCount": 9000,

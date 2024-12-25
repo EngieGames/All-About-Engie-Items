@@ -33,7 +33,19 @@
     }
   },
   "rewards": {
-    "experience": 10
+    "experience": 10,
+    "recipes": [
+      "aae_items:engie_axe_1",
+      "aae_items:engie_axe_2",
+      "aae_items:engie_pickaxe_1",
+      "aae_items:engie_shovel_1",
+      "aae_items:engie_hoe_1",
+      "aae_items:engie_hoe_2",
+      "aae_items:engie_helmet_1",
+      "aae_items:engie_chestplate_1",
+      "aae_items:engie_leggings_1",
+      "aae_items:engie_boots_1"
+    ]
   },
   "parent": "aae_items:new_world"
 }

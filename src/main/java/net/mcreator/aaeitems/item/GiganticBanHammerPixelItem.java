@@ -34,6 +34,6 @@ public class GiganticBanHammerPixelItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_PIXEL_HAMMERS));
+		}, 3, -3.5f, new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_PIXEL_HAMMERS));
 	}
 }

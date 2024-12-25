@@ -25,12 +25,12 @@ public abstract class EnragedEngieItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 1024;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 750;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{150, 150, 150, 150}[slot.getIndex()];
+				return new int[]{750, 750, 750, 750}[slot.getIndex()];
 			}
 
 			@Override
@@ -40,7 +40,7 @@ public abstract class EnragedEngieItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_leather"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_diamond"));
 			}
 
 			@Override

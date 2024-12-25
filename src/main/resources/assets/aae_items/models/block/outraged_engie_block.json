@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_items:blocks/outblock",
+    "up": "aae_items:blocks/outblock",
+    "north": "aae_items:blocks/outblock",
+    "east": "aae_items:blocks/outblock",
+    "south": "aae_items:blocks/outblock",
+    "west": "aae_items:blocks/outblock",
+    "particle": "aae_items:blocks/outblock"
+  },
+  "render_type": "solid"
+}

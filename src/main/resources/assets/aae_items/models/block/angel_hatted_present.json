@@ -1,0 +1,13 @@
+{
+  "parent": "aae_items:custom/angelhattedpresent",
+  "textures": {
+    "all": "aae_items:blocks/presenttext",
+    "particle": "aae_items:blocks/presenttext",
+    "0": "aae_items:blocks/presenttext",
+    "1": "aae_items:blocks/angelhatpresenttext",
+    "2": "aae_items:blocks/boxengiesface",
+    "3": "aae_items:blocks/boxedengie",
+    "missing": "aae_items:blocks/"
+  },
+  "render_type": "solid"
+}

@@ -36,6 +36,12 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AaeItemsModVariables {
+	public static boolean seasonwinter = false;
+	public static boolean seasonautumn = false;
+	public static boolean seasonsummer = false;
+	public static boolean seasonspring = false;
+	public static boolean decembercodeblock = true;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		AaeItemsMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);

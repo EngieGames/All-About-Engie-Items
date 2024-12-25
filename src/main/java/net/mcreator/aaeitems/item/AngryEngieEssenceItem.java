@@ -8,6 +8,6 @@ import net.mcreator.aaeitems.init.AaeItemsModTabs;
 
 public class AngryEngieEssenceItem extends Item {
 	public AngryEngieEssenceItem() {
-		super(new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(AaeItemsModTabs.TAB_AAE_ITEMS_ITEMS).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 }
