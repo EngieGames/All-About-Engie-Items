@@ -137,7 +137,7 @@
             "item": {
               "value": "CUSTOM:MiniBanHammer"
             },
-            "weight": 75,
+            "weight": 175,
             "minCount": 1,
             "maxCount": 24,
             "minEnchantmentLevel": 0,
@@ -151,7 +151,7 @@
             "item": {
               "value": "CUSTOM:BanHammer"
             },
-            "weight": 50,
+            "weight": 150,
             "minCount": 1,
             "maxCount": 12,
             "minEnchantmentLevel": 0,
@@ -165,7 +165,7 @@
             "item": {
               "value": "CUSTOM:BigBanHammer"
             },
-            "weight": 25,
+            "weight": 125,
             "minCount": 1,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -177,9 +177,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:BiggerBanHammer"
+              "value": "CUSTOM:LargeBanHammer"
             },
-            "weight": 18,
+            "weight": 100,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -191,9 +191,51 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:BiggestBanHammer"
+              "value": "CUSTOM:HugeBanHammer"
             },
-            "weight": 3,
+            "weight": 75,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EnormousBanHammer"
+            },
+            "weight": 50,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:GiganticBanHammer"
+            },
+            "weight": 25,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:MassiveBanHammer"
+            },
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

@@ -130,7 +130,7 @@
         {
           "type": "minecraft:item",
           "name": "aae_items:mini_ban_hammer",
-          "weight": 75,
+          "weight": 175,
           "functions": [
             {
               "function": "set_count",
@@ -144,7 +144,7 @@
         {
           "type": "minecraft:item",
           "name": "aae_items:ban_hammer",
-          "weight": 50,
+          "weight": 150,
           "functions": [
             {
               "function": "set_count",
@@ -158,7 +158,7 @@
         {
           "type": "minecraft:item",
           "name": "aae_items:big_ban_hammer",
-          "weight": 25,
+          "weight": 125,
           "functions": [
             {
               "function": "set_count",
@@ -171,8 +171,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aae_items:deleted_mod_element",
-          "weight": 18,
+          "name": "aae_items:large_ban_hammer",
+          "weight": 100,
           "functions": [
             {
               "function": "set_count",
@@ -185,8 +185,50 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aae_items:deleted_mod_element",
-          "weight": 3,
+          "name": "aae_items:huge_ban_hammer",
+          "weight": 75,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aae_items:enormous_ban_hammer",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aae_items:gigantic_ban_hammer",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aae_items:massive_ban_hammer",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
