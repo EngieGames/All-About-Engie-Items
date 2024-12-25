@@ -4376,6 +4376,286 @@
         ]
       },
       "path": "~/Ban Hammers/Pixel Var"
+    },
+    {
+      "name": "OutragedEngieAxe1",
+      "type": "recipe",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_axe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_axe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieAxe2",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_axe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_axe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngiePickaxe1",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_pickaxe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieShovel1",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_shovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_shovel_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieHoe1",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_hoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_hoe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieHoe2",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_hoe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_hoe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieHelmet1",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_helmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_helmet_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieChestplate",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_chestplate.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieLeggings1",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_leggings_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_leggings_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedEngieBoots1",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_engie_boots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_engie_boots_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MiniBanCraft",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/mini_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BanCraft",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BigBanCraft",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/big_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LargeBanCraft",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/large_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HugeBanCraft",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huge_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/huge_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EnormousBanCraft",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enormous_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/enormous_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GiganticBanCraft",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigantic_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/gigantic_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MassiveBanCraft",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "massive_ban_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/massive_ban_craft.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedBlock1",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_block_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OutragedItems1",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outraged_items_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_items/recipes/outraged_items_1.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -4715,7 +4995,7 @@
   "workspaceSettings": {
     "modid": "aae_items",
     "modName": "AAE Items",
-    "version": "12.20.24",
+    "version": "12.24.24",
     "description": "Made with MCreator.",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",
@@ -4728,7 +5008,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Find the book.",
+    "credits": "yeah",
     "modElementsPackage": "net.mcreator.aaeitems",
     "lockBaseModFiles": false
   },

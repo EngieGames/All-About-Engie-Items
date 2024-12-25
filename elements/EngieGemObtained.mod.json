@@ -11,7 +11,7 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
       "EngieAxe1",
@@ -23,7 +23,11 @@
       "EngieHelmet1",
       "EngieChestplate1",
       "EngieLeggings1",
-      "EngieBoots1"
+      "EngieBoots1",
+      "MiniBanCraft",
+      "BanCraft",
+      "BigBanCraft",
+      "LargeBanCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 10,

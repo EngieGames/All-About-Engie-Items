@@ -33,7 +33,21 @@
     }
   },
   "rewards": {
-    "experience": 40
+    "experience": 40,
+    "recipes": [
+      "aae_items:outraged_engie_axe_1",
+      "aae_items:outraged_engie_axe_2",
+      "aae_items:outraged_engie_pickaxe_1",
+      "aae_items:outraged_engie_shovel_1",
+      "aae_items:outraged_engie_hoe_1",
+      "aae_items:outraged_engie_helmet_1",
+      "aae_items:outraged_engie_chestplate",
+      "aae_items:outraged_engie_leggings_1",
+      "aae_items:outraged_engie_boots_1",
+      "aae_items:enormous_ban_craft",
+      "aae_items:gigantic_ban_craft",
+      "aae_items:massive_ban_craft"
+    ]
   },
   "parent": "aae_items:enraged_engie_essence_obtained"
 }

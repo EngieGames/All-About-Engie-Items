@@ -44,7 +44,11 @@
       "aae_items:angry_engie_helmet_1",
       "aae_items:angry_engie_chestplate_1",
       "aae_items:angry_engie_leggings_1",
-      "aae_items:angry_engie_boots_1"
+      "aae_items:angry_engie_boots_1",
+      "aae_items:mini_ban_craft",
+      "aae_items:ban_craft",
+      "aae_items:big_ban_craft",
+      "aae_items:large_ban_craft"
     ]
   },
   "parent": "aae_items:engie_gem_obtained"

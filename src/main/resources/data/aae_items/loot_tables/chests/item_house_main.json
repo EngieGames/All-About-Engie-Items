@@ -171,7 +171,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aae_items:bigger_ban_hammer",
+          "name": "aae_items:deleted_mod_element",
           "weight": 18,
           "functions": [
             {
@@ -185,7 +185,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "aae_items:biggest_ban_hammer",
+          "name": "aae_items:deleted_mod_element",
           "weight": 3,
           "functions": [
             {

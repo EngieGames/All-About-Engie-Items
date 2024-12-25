@@ -4,9 +4,9 @@ license="MIT License"
 
 [[mods]]
 modId="aae_items"
-version="12.20.24"
+version="12.24.24"
 displayName="AAE Items"
-credits="Find the book."
+credits="yeah"
 displayURL="https://www.twitch.tv/engiegames"
 logoFile="logo.png"
 authors="EngieGames"

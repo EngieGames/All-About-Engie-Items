@@ -23,7 +23,11 @@
       "AngryEngieHelmet1",
       "AngryEngieChestplate1",
       "AngryEngieLeggings1",
-      "AngryEngieBoots1"
+      "AngryEngieBoots1",
+      "MiniBanCraft",
+      "BanCraft",
+      "BigBanCraft",
+      "LargeBanCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 20,

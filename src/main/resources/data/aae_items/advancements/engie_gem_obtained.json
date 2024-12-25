@@ -12,7 +12,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "engie_gem_obtained": {
@@ -44,7 +44,11 @@
       "aae_items:engie_helmet_1",
       "aae_items:engie_chestplate_1",
       "aae_items:engie_leggings_1",
-      "aae_items:engie_boots_1"
+      "aae_items:engie_boots_1",
+      "aae_items:mini_ban_craft",
+      "aae_items:ban_craft",
+      "aae_items:big_ban_craft",
+      "aae_items:large_ban_craft"
     ]
   },
   "parent": "aae_items:new_world"
